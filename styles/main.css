@@ -1170,7 +1170,7 @@
     top: -50px;
     width: 34.6875rem;
     height: 20.375rem;
-    background: url(/resources/assets/video/video.jpg) no-repeat;
+    background: url(../resources/assets/video/video.jpg) no-repeat;
     filter: blur(5px);
     border-radius: 10px;
     z-index: 50
