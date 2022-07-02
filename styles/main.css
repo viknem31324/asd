@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Source Serif Pro";
-    src: url(/resources/fonts/SourceSerifPro-SemiboldIt.woff) format("woff");
+    src: url(../resources/fonts/SourceSerifPro-SemiboldIt.woff) format("woff");
     font-weight: 600;
     font-display: swap;
     font-size: normal
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(/resources/fonts/Poppins-MediumItalic.woff) format("woff");
+    src: url(../resources/fonts/Poppins-MediumItalic.woff) format("woff");
     font-weight: 500;
     font-display: swap;
     font-size: italic
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(/resources/fonts/Poppins-Medium.woff) format("woff");
+    src: url(../resources/fonts/Poppins-Medium.woff) format("woff");
     font-weight: 500;
     font-display: swap;
     font-size: normal
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(/resources/fonts/Poppins-Regular.woff) format("woff");
+    src: url(../resources/fonts/Poppins-Regular.woff) format("woff");
     font-weight: 400;
     font-display: swap;
     font-size: normal
@@ -585,7 +585,7 @@
     z-index: 10;
     width: 394px;
     height: 400px;
-    background: url(resources/assets/hero/quad.svg) no-repeat
+    background: url(../resources/assets/hero/quad.svg) no-repeat
 }
 
 .hero__product .ellipce {
@@ -594,7 +594,7 @@
     top: .8125rem;
     width: 6.75rem;
     height: 6.75rem;
-    background: url(resources/assets/hero/Ellipse.svg) space
+    background: url(../resources/assets/hero/Ellipse.svg) space
 }
 
 .hero .swiper-button-next {
@@ -608,7 +608,7 @@
 }
 
 .hero .swiper-button-next:hover::after {
-    background: url(resources/assets/hero/arrow-hover.svg) no-repeat
+    background: url(../resources/assets/hero/arrow-hover.svg) no-repeat
 }
 
 .hero .swiper-button-next:after {
@@ -619,7 +619,7 @@
     position: absolute;
     left: 1.6875rem;
     top: 1.4375rem;
-    background: url(resources/assets/hero/arrow-black.svg) no-repeat;
+    background: url(../resources/assets/hero/arrow-black.svg) no-repeat;
     transition: 1s
 }
 
@@ -1113,25 +1113,25 @@
 .messengers__item:nth-child(1) {
     width: 20px;
     height: 20px;
-    background: url(resources/assets/social/facebook.svg) no-repeat
+    background: url(../resources/assets/social/facebook.svg) no-repeat
 }
 
 .messengers__item:nth-child(2) {
     width: 20px;
     height: 20px;
-    background: url(resources/assets/social/instagram.svg) no-repeat
+    background: url(../resources/assets/social/instagram.svg) no-repeat
 }
 
 .messengers__item:nth-child(3) {
     width: 20px;
     height: 20px;
-    background: url(resources/assets/social/twitter.svg) no-repeat
+    background: url(../resources/assets/social/twitter.svg) no-repeat
 }
 
 .messengers__item:nth-child(4) {
     width: 20px;
     height: 20px;
-    background: url(resources/assets/social/google.svg) no-repeat
+    background: url(../resources/assets/social/google.svg) no-repeat
 }
 
 .messengers__link {
@@ -1170,7 +1170,7 @@
     top: -50px;
     width: 34.6875rem;
     height: 20.375rem;
-    background: url(resources/assets/video/video.jpg) no-repeat;
+    background: url(../resources/assets/video/video.jpg) no-repeat;
     filter: blur(5px);
     border-radius: 10px;
     z-index: 50
@@ -1207,7 +1207,7 @@
     top: 1.6875rem;
     width: 40px;
     height: 40px;
-    background: url(resources/assets/video/Polygon-play.svg) no-repeat;
+    background: url(../resources/assets/video/Polygon-play.svg) no-repeat;
     transition: 1s
 }
 
@@ -1343,7 +1343,7 @@
     top: 28px;
     width: 10px;
     height: 10px;
-    background: url(resources/assets/propertys/VectorPropertys.svg) no-repeat;
+    background: url(../resources/assets/propertys/VectorPropertys.svg) no-repeat;
     transition: 1s
 }
 
@@ -1400,7 +1400,7 @@
     height: 25px;
     left: 0;
     top: 0;
-    background: url(resources/assets/arrow.svg) no-repeat;
+    background: url(../resources/assets/arrow.svg) no-repeat;
     position: absolute;
     pointer-events: none
 }
@@ -1485,7 +1485,7 @@
 }
 
 .swiper-button-next:hover::after {
-    background: url(resources/assets/slider/VectorHover.svg) no-repeat
+    background: url(../resources/assets/slider/VectorHover.svg) no-repeat
 }
 
 .swiper-button-next::after {
@@ -1496,7 +1496,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url(resources/assets/slider/VectorSlider.svg) no-repeat;
+    background: url(../resources/assets/slider/VectorSlider.svg) no-repeat;
     transition: 1s
 }
 
@@ -1515,7 +1515,7 @@
 }
 
 .swiper-button-prev:hover::after {
-    background: url(resources/assets/slider/VectorHover.svg) no-repeat;
+    background: url(../resources/assets/slider/VectorHover.svg) no-repeat;
     transform: rotate(180deg)
 }
 
@@ -1527,7 +1527,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url(resources/assets/slider/VectorSlider.svg) no-repeat;
+    background: url(../resources/assets/slider/VectorSlider.svg) no-repeat;
     transform: rotate(180deg);
     transition: 1s
 }
