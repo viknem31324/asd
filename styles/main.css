@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Source Serif Pro";
-    src: url(../../resources/fonts/SourceSerifPro-SemiboldIt.woff) format("woff");
+    src: url(/resources/fonts/SourceSerifPro-SemiboldIt.woff) format("woff");
     font-weight: 600;
     font-display: swap;
     font-size: normal
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(../../resources/fonts/Poppins-MediumItalic.woff) format("woff");
+    src: url(/resources/fonts/Poppins-MediumItalic.woff) format("woff");
     font-weight: 500;
     font-display: swap;
     font-size: italic
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(../../resources/fonts/Poppins-Medium.woff) format("woff");
+    src: url(/resources/fonts/Poppins-Medium.woff) format("woff");
     font-weight: 500;
     font-display: swap;
     font-size: normal
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(../../resources/fonts/Poppins-Regular.woff) format("woff");
+    src: url(/resources/fonts/Poppins-Regular.woff) format("woff");
     font-weight: 400;
     font-display: swap;
     font-size: normal
