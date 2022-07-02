@@ -1156,7 +1156,7 @@
     position: absolute;
     width: 34.6875rem;
     height: 20.375rem;
-    background: url(resources/assets/video/video.jpg) 100% 100% no-repeat;
+    background: url(../resources/assets/video/video.jpg) 100% 100% no-repeat;
     background-size: cover;
     z-index: 100;
     border-radius: 10px
